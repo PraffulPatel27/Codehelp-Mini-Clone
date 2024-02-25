@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: aquamarine;
+    border: 1px solid;
+    display: grid;
+
+    grid-template-rows: 20px 1fr 1fr 100px;
+}
