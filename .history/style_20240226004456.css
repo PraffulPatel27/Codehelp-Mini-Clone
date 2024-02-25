@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: 'Roboto Flex', sans-serif;
+}
+
+.wrapper {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    /* border: 1px solid red; */
+    margin-bottom: 4%;
+}
+
+.nav-container img {
+    padding-top: 1.5%;
+    width: 6%;
+}
+
+.nav-container button {
+    width: 165px;
+    height: 54px;
+    margin-top: 1.5%;
+    background: #4E5DC0;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    /* list-style-type: none; */
+}
+
+.nav-links p {
+    margin-right: 26%;
+}
+
+.container-1 {
+    height: 885px;
+    margin-bottom: 5%;
+    /* border: 1px solid green; */
+    display: grid;
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+
+    grid-template-areas: 
+    "main"
+    "main2";
+}
+
+.box {
+    /* border: 2px solid red; */
+    /* background-color: antiquewhite; */
+
+}
+#main {
+    grid-area: main;
+    padding: 3% 2% 3% 2%;
+    margin-bottom: 3%;
+
+    display: flex;
+    justify-content: space-between;
+}
+#main img {
+    width: 480px;
+    height: 350px;
+}
+.left-text {
+    padding-top: 2.5%;
+
+    /* advanced width  */
+    flex-basis: 550px;
+    height: 350px;
+    margin-right: 3%;
+    margin-left: 3%;
+    /* border: 2px solid blue; */
+}
+.left-text h2 {
+    color: #4E5DC0;
+    font-size: 30px;
+    margin-bottom: 8%;
+}
+.left-text p {
+    color: #000000;
+    font-size: 17px;
+    opacity: 0.85;
+}
+
+#main-2 {
+    grid-area: main2;
+    padding: 3% 2% 3% 0%;
+
+    display: flex;
+    justify-content: space-between;
+}
+#main-2 img {
+    width: 527px;
+    height: 350px;
+}
+
+
+
+ /* footer start here */
+/* .foot-container {
+    height: 280px;
+    border: 2px solid brown;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: space-evenly;
+} */
+.foot-container {
+    height: 280px;
+    border: 2px solid brown;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    
+}
+
+.ft-box {
+    border: 1px solid yellowgreen;
+    width: 20%;
+}
+
+#ftb-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#ftb-1 img {
+    width: 23%;
+}
